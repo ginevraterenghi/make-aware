@@ -1,6 +1,7 @@
 /*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
 
 /*! Homepage text */
+/*
 
 .label {
 	background-color: rgba(255, 255, 255, 0.8);
@@ -10,27 +11,42 @@
 	color: #011ac2;
 	
 }
+*/
+
+.pre_title {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 20px;
+	color: #FF46EC;
+	
+}
 
 .title_super {
-	font-family: 'Oswald', sans-serif;
-	font-size: 65px;
-	font-weight: 700;
-	color: #011ac2;
+	font-family: 'SuisseIntl-Bold', sans-serif;
+	font-size: 80px;
+	color: #2A2A2A;
 }
 
 .subtitle_super {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'SuisseIntl-Light', monospace;
 	font-size: 18px;
-	color: #011ac2;
+	color: #2A2A2A;
 	display: block;
 }
 
 /*!  homepage structure  */
 
+#prehead {
+	height: 100vh;
+	position: relative;
+	text-align: left;
+	background:green;
+}
+
 .homepage {
 	height: 100vh;
 	position: relative;
-	text-align: center;
+	text-align: left;
+	background:#F5F5F5;
 }
 
 #pattern {
@@ -43,26 +59,32 @@
 
 /*! --------------------------------- BACKGROUND SECTION COLOR --------------------------------- */
 
-#background_blue {
-	background-color: #011ac2;
+#network {
+	background-color: #E0DFDF;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#background_lightblue {
-	background-color: #e8f1f9;
+#pills {
+	background-color: #E0DFDF;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#background_white {
-	background-color: white;
+#workshops {
+	background-color: #E0DFDF;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#background_deepblue {
-	background-color: #010d61;
+#toolkit {
+	background-color: #E0DFDF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#footer {
+	background-color: #ABABAB;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -71,14 +93,31 @@
 
 /*! Chapter */
 
-.chapter_blue {
+.title1 {
 	font-size: 30pt;
-	font-family: 'Oswald', sans-serif;
-	font-style: bold;
-	color: #011ac2;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	color: black;
 	padding-top: 40px;
 	padding-left: 30px;
 }
+
+.title2 {
+	font-size: 25pt;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	color: black;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+.text1 {
+	font-size: 12pt;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	color: black;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+
 
 
 .chapter_white {
@@ -341,420 +380,16 @@
 /*! ------------------------------------------ NAVBAR ------------------------------------------ */
 
 #appearance {
-	background-color: #011ac2;
+	background-color: #ABABAB;
 }
 
 #link_appearance_nav {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'SuisseIntl-Regular', monospace;
 	font-size: 12pt;
-	color: white;
-	margin-right: 40px;
-	margin-left: 40px;
-}
-
-/*! ------------------------------------------ TIMELINE ------------------------------------------*/
-
-/*! Timeline - container */
-
-#timeline {
-	width: 85%;
-	height: auto;
-	padding-top: 20px;
+	color: black;
 }
 
 
-/*! Timeline - SVG css */
-
-.timeline-1,
-.timeline-12,
-.timeline-14,
-.timeline-16,
-.timeline-17,
-.timeline-20,
-.timeline-22,
-.timeline-6,
-.timeline-7,
-.timeline-8 {
-	fill: none;
-}
-
-.timeline-1,
-.timeline-12,
-.timeline-17 {
-	stroke: #011ac2;
-}
-
-.timeline-1,
-.timeline-10,
-.timeline-12,
-.timeline-14,
-.timeline-15,
-.timeline-16,
-.timeline-17,
-.timeline-19,
-.timeline-20,
-.timeline-22,
-.timeline-6,
-.timeline-7,
-.timeline-8 {
-	stroke-miterlimit: 10;
-}
-
-.timeline-1,
-.timeline-6,
-.timeline-7 {
-	stroke-width: 2px;
-}
-
-.timeline-2 {
-	fill: #011ac2;
-	cursor: pointer;
-}
-
-.timeline-3 {
-	fill: #ee4453;
-	cursor: pointer;
-}
-
-.timeline-4 {
-	fill: #fde710;
-	cursor: pointer;
-}
-
-.timeline-5,
-.timeline-9 {
-	font-size: 16px;
-	font-family: Inconsolata-Regular, Inconsolata;
-}
-
-.timeline-5 {
-	fill: #070808;
-}
-
-.timeline-10,
-.timeline-14,
-.timeline-20,
-.timeline-6 {
-	stroke: #ee4453;
-}
-
-.timeline-15,
-.timeline-16,
-.timeline-19,
-.timeline-7 {
-	stroke: #fde710;
-}
-
-.timeline-8 {
-	stroke: #58595b;
-}
-
-.timeline-10,
-.timeline-14,
-.timeline-15,
-.timeline-16,
-.timeline-17,
-.timeline-8 {
-	stroke-width: 3px;
-}
-
-.timeline-10,
-.timeline-15,
-.timeline-18,
-.timeline-19 {
-	fill: #fff;
-}
-
-.timeline-11,
-.timeline-18 {
-	font-size: 18px;
-	font-family: Rajdhani-Regular, Rajdhani;
-}
-
-.timeline-13 {
-	font-size: 22px;
-	fill: #404041;
-	font-family: Rajdhani-Medium, Rajdhani;
-}
-
-.timeline-21 {
-	fill: #30449b;
-}
-
-.timeline-22 {
-	stroke: #30449b;
-}
-
-
-/*! Timeline - Java */
-
-#timeline .btn-info {
-	opacity: 1;
-}
-
-#timeline .nascosto {
-	opacity: 0;
-}
-
-/*! ------------------------------------------ MAPPA ------------------------------------------ */
-
-/*! Map - Svg style */
-
- .map-1 {
-        fill: #f4f2f2;
-      }
-
-      .map-2 {
-        fill: #010d61;
-      }
-
-      .map-3 {
-        fill: #d3daf4;
-      }
-
-      .map-4 {
-        fill: #ffe919;
-      }
-
-      .map-5 {
-        fill: #011ac2;
-      }
-
-      .map-19, .map-22, .map-6 {
-        fill: none;
-        stroke-miterlimit: 10;
-      }
-
-      .map-6 {
-        stroke: #dee1f1;
-        stroke-width: 0.7px;
-      }
-
-      .map-7 {
-        fill: #ff5f19;
-      }
-
-      .map-10, .map-13, .map-17, .map-20, .map-8, .map-9 {
-        font-size: 16px;
-      }
-
-      .map-10, .map-13, .map-8, .map-9 {
-        font-family: Rajdhani-Regular, Rajdhani;
-      }
-
-      .map-8 {
-        letter-spacing: 0em;
-      }
-
-      .map-10, .map-11 {
-        letter-spacing: 0em;
-      }
-
-      .map-12 {
-        letter-spacing: 0em;
-      }
-
-      .map-13 {
-        letter-spacing: 0em;
-      }
-
-      .map-14 {
-        fill: #9ea8d4;
-      }
-
-      .map-15 {
-        fill: #f24452;
-      }
-
-      .map-16 {
-        fill: #818181;
-      }
-
-      .map-17 {
-        fill: #070808;
-      }
-
-      .map-17, .map-20 {
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-      .map-18 {
-        fill: #010d61;;
-      }
-
-      .map-19 {
-        stroke: #000;
-      }
-
-      .map-21 {
-        fill: #dde2f2;
-      }
-
-      .map-22 {
-        stroke: #050505;
-        stroke-width: 0.5px;
-      }
-
-
-
-/*! ------------------------------------------ INTERNET USER ------------------------------------------ */
-
-/*! Internet user container */
-
-#user {
-	    margin-top: 60px;
-}
-
-
-/*! SVG style */
-
-.user-1,
-.user-6 {
-	opacity: 0.15;
-}
-
-.user-12,
-.user-14,
-.user-15,
-.user-16,
-.user-2,
-.user-3,
-.user-5,
-.user-6,
-.user-7,
-.user-8,
-.user-9 {
-	fill: none;
-}
-
-.user-14,
-.user-15,
-.user-2,
-.user-3,
-.user-5,
-.user-6,
-.user-7,
-.user-9 {
-	stroke: #30449b;
-}
-
-.user-12,
-.user-15,
-.user-16,
-.user-2,
-.user-3,
-.user-5,
-.user-6,
-.user-7,
-.user-8,
-.user-9 {
-	stroke-miterlimit: 10;
-}
-
-.user-2,
-.user-3,
-.user-5,
-.user-6,
-.user-7,
-.user-9 {
-	stroke-width: 0.7px;
-}
-
-.user-3 {
-	stroke-dasharray: 4.95 2.97;
-}
-
-.user-11,
-.user-4 {
-	font-size: 12px;
-}
-
-.user-13,
-.user-4 {
-	font-family: Rajdhani-Regular, Rajdhani;
-}
-
-.user-5 {
-	stroke-dasharray: 5.03 3.02;
-}
-
-.user-6 {
-	stroke-dasharray: 5 3;
-}
-
-.user-7 {
-	stroke-dasharray: 4.98 2.99;
-}
-
-.user-8 {
-	stroke: #000;
-}
-
-.user-9 {
-	stroke-dasharray: 4.97 2.98;
-}
-
-.user-10 {
-	fill: #f06024;
-}
-
-.user-11 {
-	font-family: Inconsolata-Regular, Inconsolata;
-}
-
-.user-12,
-.user-16 {
-	stroke: #f06024;
-}
-
-.user-12,
-.user-14,
-.user-15 {
-	stroke-width: 2px;
-}
-
-.user-13 {
-	font-size: 14px;
-}
-
-.user-14 {
-	stroke-linejoin: round;
-}
-
-.user-15 {
-	stroke-linecap: round;
-}
-
-.user-16 {
-	stroke-width: 3px;
-}
-
-.user-17 {
-	fill: gray;
-}
-
-/*! SVG interaction */
-
-#countries:hover .country {
-	opacity: .15;
-}
-
-#countries:hover .country text {
-	opacity: 1;
-}
-
-#countries .country path {
-	mix-blend-mode: multiply;
-	opacity: .9;
-}
-
-#countries .country {
-	opacity: .5;
-}
-
-#countries .country:hover {
-	opacity: 1;
-}
 
 
 /*! ------------------------------------------ MOBILE VS FIXED ------------------------------------------ */
