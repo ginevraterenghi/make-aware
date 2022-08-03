@@ -1,24 +1,135 @@
-/*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
-
-/*! Homepage text */
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" >
 /*
-
-.label {
-	background-color: rgba(255, 255, 255, 0.8);
-	opacity: .8;
-	opacity: inherit;
-	padding: 20px;
-	color: #011ac2;
-	
-}
+colors:
+red #FF3A17
+pink #FF46ED
+gray 1 #EFEFEF
+gray 2 #E0DFDF
+gray 3 #ABABAB
+black-non-black #2B2B2B
 */
 
-.pre_title {
+/*! ------------------------------------------ MAIN ------------------------------------------ */
+
+header {
+	/*	background-color: #EFEFEF;*/
+	background-color: #EFEFEF;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #EFEFEF;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+container {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	margin-left: 1vh;
+}
+
+
+
+/*! ------------------------------------------ MARQUEE ------------------------------------------ */
+
+marquee {
+	direction: left;
+	-webkit-animation: marquee 32s linear infinite;
+	animation: marquee 32s linear infinite;
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: #EFEFEF;
+	margin: 0px;
+	border: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	background-color: #EFEFEF;
+}
+
+
+.imgMarqee {
+	width: 15px;
+	height: 15px;
+}
+
+.marq_text {
 	font-family: 'SuisseIntl-Book', sans-serif;
 	font-size: 20px;
 	color: #FF46EC;
-	
+	margin: 0px;
+	border: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
+
+
+/*! ------------------------------------------ NAV BAR ------------------------------------------ */
+
+.navbar {
+	background-color: #E0DFDF;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	margin: 0px;
+	border: 0px;
+}
+
+
+#link_appearance_nav {
+	font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 11pt;
+	color: #2B2B2B;
+
+}
+
+#link_appearance_nav .active{
+
+	color: yellow
+
+}
+
+
+
+/*
+#link_appearance_nav_special {
+	font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 9pt;
+	color: #FF46EC;
+}
+
+a.navbar-brand {
+	font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 11pt;
+*/
+
+/*
+	color:red;
+	perchè il colore non funziona!!!
+*/
+
+}
+
+
+#beginning {}
+
+
+/*! ------------------------------------------ LANDING ------------------------------------------ */
+
+#landing {
+	background-color: #EFEFEF;
+	padding: 0vh;
+	margin-top: 5vh;
+	/*	come calcolo l'igombro del menu responsive ogni volta?'*/
+	height: 1000px;
+}
+
 
 .title_super {
 	font-family: 'SuisseIntl-Bold', sans-serif;
@@ -27,835 +138,67 @@
 }
 
 .subtitle_super {
-	font-family: 'SuisseIntl-Light', monospace;
-	font-size: 18px;
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 24px;
 	color: #2A2A2A;
 	display: block;
 }
 
-/*!  homepage structure  */
-
-#prehead {
-	height: 100vh;
-	position: relative;
-	text-align: left;
-	background:green;
-}
-
-.homepage {
-	height: 100vh;
-	position: relative;
-	text-align: left;
-	background:#F5F5F5;
-}
-
-#pattern {
-	width: auto;
-	background-position: center;
-	background-size: cover;
-	background-image: url(../img/pattern02.jpg);
+.p {
+	padding: 0px;
+	margin: 0px;
 }
 
 
-/*! --------------------------------- BACKGROUND SECTION COLOR --------------------------------- */
+
+
+/*! ------------------------------------------ NETWORK ------------------------------------------ */
 
 #network {
-	background-color: #E0DFDF;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	background-color: #EFEFEF;
+	padding: 0vh;
+	height: 1000px;
+		padding-top:80px;;
+
 }
+
+#viz1 {
+	width: 100%;
+	height: auto;
+}
+
+
+/*! ------------------------------------------ PILLS ------------------------------------------ */
 
 #pills {
-	background-color: #E0DFDF;
-	padding-top: 20px;
-	padding-bottom: 20px;
+/*	background-color: #EFEFEF;*/
+	background-color: lightblue;
+	padding: 0vh;
+	padding-top:80px;
+	padding-bottom:30px;
+
 }
+
+
+
+
+/*! ------------------------------------------ WORKSHOPS ------------------------------------------ */
 
 #workshops {
-	background-color: #E0DFDF;
-	padding-top: 20px;
-	padding-bottom: 20px;
+/*	non funziona collegamento da menu come se fosse diverso e non capisco perchè*/
+	background-color: #EFEFEF;
+	padding-top:80px;
+	margin-bottom:30px;
+
 }
+
+
+/*! ------------------------------------------ TOOLKIT ------------------------------------------ */
 
 #toolkit {
-	background-color: #E0DFDF;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-#footer {
-	background-color: #ABABAB;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-/*! ------------------------------------------ TEXT --------------------------------------------- */
-
-/*! Chapter */
-
-.title1 {
-	font-size: 30pt;
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	color: black;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-.title2 {
-	font-size: 25pt;
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	color: black;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-.text1 {
-	font-size: 12pt;
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	color: black;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-
-
-
-.chapter_white {
-	font-size: 30pt;
-	font-family: 'Oswald', sans-serif;
-	font-style: bold;
-	color: white;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-
-/*! White text */
-
-.title_white {
-	font-size: 30pt;
-	font-family: 'Inconsolata', monospace;
-	color: white;
-	font-style: bold;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-.subtitle_white {
-	font-size: 15pt;
-	font-family: 'Inconsolata', monospace;
-	color: white;
-	padding-left: 30px;
-}
-
-.text_white {
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	text-align: justify;
-	color: white;
-	line-height: 1.6;
-	margin: 30px;
-	column-count: 2;
-	column-gap: 80px;
-	padding-bottom: 30px;
-}
-
-/*! Blue text */
-
-.title_blue {
-	font-size: 30pt;
-	font-family: 'Inconsolata', monospace;
-	color: #011ac2;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-.subtitle_blue {
-	font-size: 15pt;
-	font-family: 'Inconsolata', monospace;
-	color: #011ac2;
-	padding-left: 30px;
-	margin-top: 10px;
-    margin-bottom: 60px;
-}
-
-.subtitle_blue_mini {
-	font-size: 15pt;
-	font-family: 'Inconsolata', monospace;
-	color: #011ac2;
-	padding-left: 30px;
-	margin-top: 30px;
-    margin-bottom: 5px;
-}
-
-.subtitle_blue_mini2 {
-	font-size: 15pt;
-	font-family: 'Inconsolata', monospace;
-	color: #011ac2;
-	padding-left: 20px;
-	margin-top: 30px;
-    margin-bottom: 5px;
-}
-
-.text_blue {
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	text-align: justify;
-	color: #011ac2;
-	line-height: 1.6;
-	margin: 30px;
-	column-count: 2;
-	column-gap: 80px;
-	padding-bottom: 30px;
-}
-
-
-/*! White text */
-
-.text_grey {
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	text-align: justify;
-	color: #333333;
-	line-height: 1.6;
-	margin: 30px;
-	column-count: 2;
-	column-gap: 80px;
-	padding-bottom: 30px;
-}
-
-.text_grey_nocolumn {
-	font-family: 'Rajdhani', sans-serif;
-	text-align: justify;
-	color: #333333;
-	!important font-size: 14px;
-	line-height: 1.6;
-	padding-right: 80px;
-}
-
-
-/*! Testi extra */
-
-.text_center {
-	font-family: 'Inconsolata', monospace;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	margin: 30px;
-}
-
-/*! Testi affiancati */
-
-.text_number {
-	font-family: 'Rajdhani', sans-serif;
-	text-align: justify;
-	color: #011ac2;
-	font-size: 35px;
-	line-height: 1.6;
-	margin: 30px;
-}
-
-
-/*! Footer text */
-
-.subtitle_footer {
-	font-family: 'Inconsolata', monospace;
-	font-size: 12pt;
-	color: white;
-	padding-top: 30px;
-}
-
-.list_footer {
-	font-family: 'Rajdhani', sans-serif;
-	color: white;
-	font-size: 14px;
-	line-height: 1.5;
-	margin-bottom: 20px;
-	padding: 5px;
-	list-style-type: none;
-}
-
-
-
-/*! --------------------------------- Text Reference --------------------------------- */
-
-.link_appareance {
-	font-family: 'Inconsolata', monospace;
-	text-align: right;
-	color: grey;
-	font-size: 14px;
-}
-
-.text_reference {
-	font-family: 'Inconsolata', monospace;
-	text-align: right;
-	color: grey;
-	font-size: 14px;
-	margin: 30px;
-}
-
-.text_reference_white {
-	font-family: 'Inconsolata', monospace;
-	text-align: right;
-	color: white;
-	font-size: 14px;
-	margin: 30px;
-}
-
-.link_appareance_white {
-	font-family: 'Inconsolata', monospace;
-	text-align: right;
-	color: white;
-	font-size: 14px;
-
-}
-
-
-
-/*! --------------------------------- POP UP --------------------------------- */
-
-.popover-body {
-    padding-left: 10px;
-	padding-right:10px;
-	text-align: left;
-	margin:auto;
-    color: #011AC2;
-    border: white;
-	
-}
-
-.pop_appareance_white {
-  font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	font-style: bold;
-    color: #011ac2;
-	background: white;
-	border: none;
-	border-radius: 0;
-	line-height: 0.4;
-    cursor: pointer;
-	
-}
-.pop_appareance_white:hover {
-  font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-    color: #011ac2;
-	border: none;
-	border-radius: 0;
-	line-height: 0.4;
-    cursor: pointer;
-    opacity: 1;
-}
-
-.pop_appareance_blue {
-    font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	font-style: bold;
-    color: white;
-	border: none;
-    background: #011ac2;
-	border-radius: 0;
-	line-height: 0.4;
-    transition: none;
-    cursor: pointer;
-}
-
-.pop_appareance_blue:hover {
-    font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	font-style: bold;
-    color: white;
-	border: none;
-    background: #011ac2;
-	border-radius: 0;
-	line-height: 0.4;
-    transition: none;
-    cursor: pointer;
-    opacity: 1
-}
-
-
-
-
-/*! ------------------------------------------ NAVBAR ------------------------------------------ */
-
-#appearance {
-	background-color: #ABABAB;
-}
-
-#link_appearance_nav {
-	font-family: 'SuisseIntl-Regular', monospace;
-	font-size: 12pt;
-	color: black;
-}
-
-
-
-
-/*! ------------------------------------------ MOBILE VS FIXED ------------------------------------------ */
-
-/*! Svg container */
-
-#subscription {
-    padding-top: 10px;
-    padding-bottom: 60px;
-}
-
-
-
-
-/*! Svg style */
-
- .subscription-1, .subscription-10, .subscription-2, .subscription-3 {
-        fill: none;
-      }
-
-      .subscription-1, .subscription-2, .subscription-3 {
-        stroke: #b3b2b3;
-      }
-
-      .subscription-1, .subscription-10, .subscription-11, .subscription-2, .subscription-3, .subscription-8, .subscription-9 {
-        stroke-miterlimit: 10;
-      }
-
-      .subscription-2 {
-        stroke-dasharray: 3.01 2.01;
-      }
-
-      .subscription-3 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .subscription-4 {
-        font-size: 14px;
-      }
-
-      .subscription-4, .subscription-5 {
-        font-family: Rajdhani-Regular, Rajdhani;
-      }
-
-      .subscription-5, .subscription-7 {
-        font-size: 12px;
-      }
-
-      .subscription-6 {
-        fill: gray;
-      }
-
-      .subscription-7 {
-        fill: #070808;
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-      .subscription-8 {
-        fill: #9ba9eb;
-        stroke: #9ba9eb;
-      }
-
-      .subscription-9 {
-        fill: #011ac2;
-        stroke: #011ac2;
-		cursor: pointer;
-      }
-
-      .subscription-10 {
-        stroke: #f15a24;
-      }
-
-      .subscription-11 {
-        fill: #586fdd;
-        stroke: #586fdd;
-		  cursor: pointer;
-      }
-
-
-/*! --------------------------------- RETTANGOLI - BORDER --------------------------------- */
-
-/*! Rectangle x 3 */
-
-
-.div_border_orange {
-	border: 5px solid #F06024;
-	margin-right: 20px;
-	margin-left: 40px;
-	padding-bottom: 40px;
-
-}
-
-.title_border_orange_white {
-	font-family: 'Inconsolata', monospace;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	font-size: 20px;
-	line-height: 1.4;
-	margin: 20px;
-	margin-top: 30px;
-}
-
-.text_border_white {
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 16px;
-	text-align: justify;
-	color: white;
-	line-height: 1.6;
-	margin: 30px;
-	padding-bottom: 30px;
-}
-
-
-/*! Rectangle Law */
-
-.div_border_blue {
-	width: 100px;
-	height: auto;
-	border: 5px solid #011ac2;
-	margin: 5;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: white;
-}
-
-.text_border_black {
-	font-family: 'Inconsolata', monospace;
-	text-align: left;
-	color: black;
-	font-size: 13px;
-	line-height: 1.4;
-}
-
-.text_border_underline {
-	font-family: 'Inconsolata', monospace;
-	text-align: left;
-	color: black;
-	text-decoration: underline solid #011ac2;
-	font-size: 13px;
-	line-height: 1.4;
-}
-
-
-
-/*! ------------------------------------------ ZERO RATING CASE ------------------------------------------ */
-
-/*! Zero rating - container */
-
-#zero{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-/*! Zero rating - Svg style */
-
-  .zero-1, .zero-2 {
-        font-size: 14px;
-      }
-
-      .zero-1 {
-        font-family: Rajdhani-Regular, Rajdhani;
-      }
-
-      .zero-2 {
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-      .zero-10, .zero-11, .zero-3, .zero-4, .zero-5, .zero-6, .zero-7, .zero-8, .zero-9 {
-        fill: none;
-        stroke-miterlimit: 10;
-        stroke-width: 4px;
-      }
-
-      .zero-3 {
-        stroke: #666;
-      }
-
-      .zero-4 {
-        stroke: #6d6e70;
-      }
-
-      .zero-5 {
-        stroke: #a0306e;
-      }
-
-      .zero-6 {
-        stroke: #586fdd;
-      }
-
-      .zero-7 {
-        stroke: #011ac2;
-      }
-
-      .zero-8 {
-        stroke: #f24452;
-      }
-
-      .zero-9 {
-        stroke: #ffda00;
-      }
-
-      .zero-10 {
-        stroke: #ff5f19;
-      }
-
-      .zero-11 {
-        stroke: #00a480;
-      }
-
-
-
-
-
-
-/*! Zero rating - Svg interaction */
-
-#vodafone > g {
-	opacity: 0.15
-}
-
- #vodafone:hover  > g {
-	opacity: 1
-}
-
-#orange > g {
-	opacity: 0.15
-}
-
-#orange:hover > g {
-	opacity: 1
-}
-
-#tmobile g {
-	opacity: 0.15
-}
-
-#tmobile:hover > g {
-	opacity: 1
-}
-
-#telenor g {
-	opacity: 0.15
-}
-
-#telenor:hover > g {
-	opacity: 1
-}
-
-#telia g {
-	opacity: 0.15
-}
-
-#telia:hover > g {
-	opacity: 1
-}
-
-#bite g {
-	opacity: 0.15
-}
-
-#bite:hover > g {
-	opacity: 1
-}
-
-#mobistar g {
-	opacity: 0.15
-}
-
-#mobistar:hover > g {
-	opacity: 1
-}
-
-#polkomtel g {
-	opacity: 0.15
-}
-
-#polkomtel:hover > g {
-	opacity: 1
-}
-
-
-/*!-------------------------------------------- ACCUSE TIMELINE ------------------------------------------ */
-
-/*! Accuse - Svg style */
- .accuse-1, .accuse-13 {
-        font-size: 12px;
-      }
-
-      .accuse-1 {
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-      .accuse-10, .accuse-11, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-2, .accuse-21, .accuse-22, .accuse-23, .accuse-24, .accuse-8, .accuse-9 {
-        fill: none;
-      }
-
-      .accuse-2, .accuse-22, .accuse-23, .accuse-24 {
-        stroke: gray;
-      }
-
-      .accuse-10, .accuse-11, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-2, .accuse-21, .accuse-22, .accuse-23, .accuse-24, .accuse-4, .accuse-6, .accuse-8, .accuse-9 {
-        stroke-miterlimit: 10;
-      }
-
-      .accuse-2, .accuse-23 {
-        stroke-width: 5px;
-      }
-
-      .accuse-3 {
-        fill: #ff5f19;
-      }
-
-      .accuse-4, .accuse-6 {
-        fill: #fff;
-        stroke-width: 2px;
-      }
-
-      .accuse-4 {
-        stroke: #ff5f19;
-      }
-
-      .accuse-5 {
-        fill: #011ac2;
-      }
-
-      .accuse-6 {
-        stroke: #011ac2;
-      }
-
-      .accuse-7 {
-        fill: #666;
-      }
-
-      .accuse-10, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-8, .accuse-9 {
-        stroke: #ccc;
-      }
-
-      .accuse-9 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-10 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-11, .accuse-21 {
-        stroke: #333;
-      }
-
-      .accuse-12 {
-        font-size: 14.13px;
-      }
-
-      .accuse-12, .accuse-13 {
-        fill: #404041;
-        font-family: Rajdhani-Medium, Rajdhani;
-      }
-
-      .accuse-14 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-15 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-16 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-17 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-18 {
-        stroke-dasharray: 2.99 1.99;
-      }
-
-      .accuse-19 {
-        stroke-dasharray: 2.98 1.99;
-      }
-
-      .accuse-20 {
-        font-size: 14px;
-        font-family: Rajdhani-Regular, Rajdhani;
-      }
-
-      .accuse-21, .accuse-22, .accuse-23 {
-        stroke-dasharray: 5 3;
-      }
-
-      .accuse-22, .accuse-24 {
-        stroke-width: 4px;
-      }
-
-
-
-/*! ------------------------------------------ BIG NUMBER ------------------------------------------ */
-
-.bg-1,
-.bg-2,
-.bg-3 {
-	isolation: isolate;
-	fill: #ff5f19;
-}
-
-.bg-1 {
-	font-size: 17px;
-}
-
-.bg-1,
-.bg-2 {
-	font-family: Rajdhani-Regular, Rajdhani;
-}
-
-.bg-2 {
-	font-size: 20px;
-}
-
-.bg-3 {
-	font-size: 50px;
-	font-family: Inconsolata-Regular, Inconsolata;
-}
-
-.bg-4 {
-	fill: none;
-	stroke: #ff5f19;
-	stroke-miterlimit: 10;
-	stroke-width: 4px;
-}
-
-/*! ------------------------------------------ EXTERNAL SOURCES ------------------------------------------ */
-.gif_appareance {
-	width: 380px;
-	height: 380px;
-	margin-left:100px;
-	margin-right:100px;
-}
-
-.img_appareance {
-	width: auto;
-	height: auto;
-	margin-left:60px;
-	margin-right:60px;
-}
-
-/*! ------------------------------------------ SCROLL BAR ------------------------------------------ */
-
-::-webkit-scrollbar {
-    width: 15px;
-}
- 
-/* Track */
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,5,10,0.3); 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #ff5f19; 
-}
-
-
-::-webkit-scrollbar-track-piece {
-	background: #011ac2 ; 
+	background-color: #EFEFEF;
+	margin-bottom:30px;
+	padding-top:80px;
 }
 
 
@@ -863,13 +206,56 @@
 
 /*! ------------------------------------------ FOOTER ------------------------------------------ */
 
-.footer_img {
-	height: 90px;
-	width: auto;
-	position: relative;
-	padding-top: 20px;
-	margin: 1em;
+footer {
+	background-color: #FF3A17;
+	padding: 3vh;
+}
+
+.link_footer {
+	font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 10pt;
+	color: #EFEFEF;
+	text-decoration: none;
+}
+
+a.link_footer:hover {
+	color: #ABABAB;
+	text-decoration: none;
 }
 
 
-X
+
+}
+
+.text_footer {
+	font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 10pt;
+	color: #EFEFEF;
+}
+
+
+
+
+/*! ------------------------------------------ RESPONSIVE ------------------------------------------ */
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+}
