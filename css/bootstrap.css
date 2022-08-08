@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #FF46ED;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -3190,26 +3190,28 @@ color: #2b2b2b;
 }
 
 .btn-link {
-  font-weight: 400;
-  color: #007bff;
+  font-family: 'SuisseIntl-Book', sans-serif;
+  color: #FF3A17;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #EFEFEF;
-  text-decoration: underline;
+  color: #E0DFDF;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: #FF46ED;
 }
 
 .btn-link:disabled, .btn-link.disabled {
-  color: #6c757d;
+  color: #E0DFDF;
   pointer-events: none;
 }
+
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
@@ -3495,7 +3497,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #FF46ED;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3883,8 +3885,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #FF46ED;
+  background-color: #FF46ED;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3949,8 +3951,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #FF46ED;
+  background-color: #FF46ED;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -4185,7 +4187,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #007bff;
+  background-color: #FF46ED;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4220,7 +4222,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #007bff;
+  background-color: #FF46ED;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4258,7 +4260,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #007bff;
+  background-color: #FF46ED;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4412,7 +4414,7 @@ li.nav-item.active {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #FF46ED;
 }
 
 .nav-fill .nav-item {
@@ -4921,10 +4923,12 @@ li.nav-item.active {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #EFEFEF;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-top: 1px solid rgba(43, 43, 43, 1);
+  border-bottom: 0px solid rgba(43, 43, 43, 1);
+  border-radius: 0rem;
+  margin-top:0;
 }
 
 .card > hr {
@@ -4947,6 +4951,7 @@ li.nav-item.active {
   -webkit-box-flex: 1;
   flex: 1 1 auto;
   padding: 1.25rem;
+  padding-top: 3rem;
 }
 
 .card-title {
@@ -4971,10 +4976,17 @@ li.nav-item.active {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 1.25rem, 0,0,0;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #efefef;
+  border-bottom: 0px solid rgba(0, 0, 0, 0);
+}
+
+.card-header-last {
+  padding: 1.25rem, 0,0,0;
+  margin-bottom: 0;
+  background-color: #efefef;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .card-header:first-child {
@@ -4987,8 +4999,8 @@ li.nav-item.active {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0);
 }
 
 .card-footer:last-child {
@@ -5150,7 +5162,7 @@ li.nav-item.active {
 }
 
 .accordion > .card {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .accordion > .card:not(:first-of-type) .card-header:first-child {
@@ -5228,14 +5240,14 @@ li.nav-item.active {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #FF46ED;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #FF46ED;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -5244,8 +5256,8 @@ li.nav-item.active {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 70, 237, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 70, 237, 0.25);
 }
 
 .page-item:first-child .page-link {
@@ -5938,7 +5950,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
   background-color: #004085;
-  border-color: #004085;
+  border-color: #FF46ED;
 }
 
 .list-group-item-secondary {

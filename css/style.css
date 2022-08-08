@@ -117,17 +117,17 @@ a.navbar-brand {
 }
 
 
-#beginning {}
+#landing {}
 
 
 /*! ------------------------------------------ LANDING ------------------------------------------ */
 
-#landing {
+#network {
 	background-color: #EFEFEF;
 	padding: 0vh;
-	margin-top: 5vh;
+	padding-top:80px;
+	padding-bottom:30px;
 	/*	come calcolo l'igombro del menu responsive ogni volta?'*/
-	height: 1000px;
 }
 
 
@@ -152,13 +152,80 @@ a.navbar-brand {
 
 
 
+.title1 {
+	font-family: 'SuisseIntl-SemiBold', sans-serif;
+	font-size: 40px;
+	color: #2A2A2A;
+	padding: 0px;
+	margin-bottom: 6vh;
+}
+
+.title2 {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 15px;
+	color: #FF46ED;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.title3 {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 16px;
+	color: #2B2B2B;
+	padding: 0px;
+	padding-top: 3vh;
+	margin: 0px;
+	
+}
+
+
+.illustration {
+	padding-top: 5vh;
+}
+
+
+.pre-source {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 11px;
+	color: #2B2B2B;
+	margin: 0px;
+	margin-top: 3vh;
+}
+
+.source {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 11px;
+	color: #FF3A17;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	
+}
+
+.source:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+
+.text2 {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 20px;
+	color: #2A2A2A;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 3vh;
+}
+
+
 /*! ------------------------------------------ NETWORK ------------------------------------------ */
 
 #network {
 	background-color: #EFEFEF;
 	padding: 0vh;
 	height: 1000px;
-		padding-top:80px;;
+	padding-top:80px;;
 
 }
 
@@ -168,17 +235,41 @@ a.navbar-brand {
 }
 
 
+
 /*! ------------------------------------------ PILLS ------------------------------------------ */
 
 #pills {
-/*	background-color: #EFEFEF;*/
-	background-color: lightblue;
+	background-color: #EFEFEF;
+/*	background-color: lightblue;*/
 	padding: 0vh;
 	padding-top:80px;
 	padding-bottom:30px;
 
 }
 
+.intro {
+	padding: 0vh;
+	padding-bottom:4vh;
+
+}
+
+
+#viz-q {
+	width: 100%;
+	height: auto;
+	padding-top:2vh;
+	padding-bottom: 0vh;
+}
+
+#viz-k {
+	width: 100%;
+	height: auto;
+	padding-top:3vh;
+}
+
+.column-left {
+	padding-left:3vh;
+}
 
 
 
@@ -199,6 +290,7 @@ a.navbar-brand {
 	background-color: #EFEFEF;
 	margin-bottom:30px;
 	padding-top:80px;
+	height:1000px;
 }
 
 
