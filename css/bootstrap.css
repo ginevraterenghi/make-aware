@@ -617,8 +617,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .col {
@@ -2699,9 +2699,9 @@ color: #2b2b2b;
 
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #FF3A17;
+  background-color: white;
+  border-color: #FF3A17;
 }
 
 .btn-secondary:hover {
@@ -4354,10 +4354,30 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 2rem;
+	color: #FF3A17;
+}
+
+.nav-link-special {
+ display: block;
+  padding: 0.5rem 1rem;
+font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 0.9rem;
+	color: #FF46ED;
+}
+
+.special {
+  display: block;
+  padding: 0.5rem 1rem;
+font-family: 'SuisseIntl-Regular', monospace;
+	font-size: 0.9rem;
+	color: #FF46ED;
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+	color: #ABABAB;
 }
 
 .nav-link.disabled {
@@ -4372,10 +4392,11 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+		padding-right: 10vh;
 }
 
 li.nav-item.active {
-  color:green;
+  color:#FF46ED;
 }
 
 .nav-tabs .nav-link {
@@ -4442,7 +4463,7 @@ li.nav-item.active {
 }
 
 .navbar {
-  position: relative;
+  position: static;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -4678,8 +4699,8 @@ li.nav-item.active {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
@@ -4726,8 +4747,8 @@ li.nav-item.active {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
   }
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
@@ -4806,8 +4827,8 @@ li.nav-item.active {
 
 .navbar-light .navbar-nav .nav-link {
 	font-family:'SuisseIntl-Regular', monospace;
-	font-size: 11pt;
-	color: #2B2B2B;
+	font-size: 1.4rem;
+	color: #FF3A17;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
@@ -4828,7 +4849,7 @@ li.nav-item.active {
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
-  color: green;
+  color: #FF46ED;
 }
 
 
@@ -4923,13 +4944,41 @@ li.nav-item.active {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   background-clip: border-box;
-  border-top: 1px solid rgba(43, 43, 43, 1);
+  border-top: 0px solid rgba(43, 43, 43, 1);
   border-bottom: 0px solid rgba(43, 43, 43, 1);
+  border-left: 0px solid rgba(43, 43, 43, 1);
+  border-right: 0px solid rgba(43, 43, 43, 1);
   border-radius: 0rem;
   margin-top:0;
+	padding-bottom:0;
+	
 }
+
+
+.card-border1 {
+border-top: 1px solid rgba(43, 43, 43, 1);
+	border-left: 0px solid rgba(43, 43, 43, 1);
+	border-right: 0px solid rgba(43, 43, 43, 1);
+	
+}
+
+.card-border2 {
+border-top: 1px solid rgba(43, 43, 43, 1);
+	border-bottom: 1px solid rgba(43, 43, 43, 1);
+		border-left: 0px solid rgba(43, 43, 43, 1);
+	border-right: 0px solid rgba(43, 43, 43, 1);
+	
+}
+
+.card-border3 {
+border-right: 1px solid rgba(43, 43, 43, 1);
+		border-left: 0px solid rgba(43, 43, 43, 1);
+
+	
+}
+
 
 .card > hr {
   margin-right: 0;
@@ -4950,12 +4999,63 @@ li.nav-item.active {
   -ms-flex: 1 1 auto;
   -webkit-box-flex: 1;
   flex: 1 1 auto;
-  padding: 1.25rem;
-  padding-top: 3rem;
+  padding-bottom: 0rem;
+	margin-bottom: 0rem;
+  padding-top: 0rem;
 }
 
-.card-title {
-  margin-bottom: 0.75rem;
+.card-body-past-workshops {
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.card-title-future {
+  margin-bottom: 0rem;
+font-family:'SuisseIntl-Book', monospace;
+	font-size: 1.2rem;
+	color: #FF46ED; 
+}
+
+.card-title-past {
+  margin-bottom: 0rem;
+font-family:'SuisseIntl-SemiBold', monospace;
+	font-size: 1.2rem;
+	color: #2b2b2b; 
+}
+
+.card-subtitle-future {
+  margin-bottom: 0rem;
+	font-family:'SuisseIntl-Regular', monospace;
+	font-size: 1.2rem;
+	color: #FF46ED; 
+}
+
+
+
+.card-subtitle-past {
+	margin-bottom: 0rem;
+font-family:'SuisseIntl-Light', monospace;
+	font-size: 1.3rem;
+	color: #2b2b2b; 
+}
+
+.card-little-text {
+  margin-bottom: 0rem;
+font-family:'SuisseIntl-Light', monospace;
+	font-size: 1rem;
+	color: #2b2b2b; 
+}
+
+.card-text {
+  margin-bottom: 0rem;
+		padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+font-family:'SuisseIntl-Light', monospace;
+	font-size: 1rem;
+	color: #2b2b2b; 
 }
 
 .card-subtitle {
@@ -5035,8 +5135,10 @@ li.nav-item.active {
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0rem - 0px);
+  border-top-right-radius: calc(00rem - 0px);
+padding-left: 1.25rem;
+	padding-right: 1.25rem;
 }
 
 .card-img-bottom {
@@ -5080,7 +5182,8 @@ li.nav-item.active {
     -webkit-box-direction: normal;
     flex-direction: column;
     margin-right: 15px;
-    margin-bottom: 0;
+    margin-bottom: 5rem;
+	margin-top: 3rem;
     margin-left: 15px;
   }
 }
@@ -8688,7 +8791,7 @@ button.bg-dark:focus {
 }
 
 .p-2 {
-  padding: 0.5rem !important;
+  padding: 0.2rem !important;
 }
 
 .pt-2,

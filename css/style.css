@@ -84,36 +84,30 @@ marquee {
 
 #link_appearance_nav {
 	font-family: 'SuisseIntl-Regular', monospace;
-	font-size: 11pt;
-	color: #2B2B2B;
+	font-size: 1.3rem;
+	color: #FF3A17;
+	padding-right: 10vh;
 
 }
 
-#link_appearance_nav .active{
-
-	color: yellow
+#link_appearance_nav:hover{
+	color: #E0DFDF;
 
 }
 
 
 
-/*
+
 #link_appearance_nav_special {
 	font-family: 'SuisseIntl-Regular', monospace;
 	font-size: 9pt;
 	color: #FF46EC;
 }
 
-a.navbar-brand {
+#link_appearance_nav_special:hover {
 	font-family: 'SuisseIntl-Regular', monospace;
-	font-size: 11pt;
-*/
-
-/*
-	color:red;
-	perchè il colore non funziona!!!
-*/
-
+	font-size: 9pt;
+	color: #FF46EC;
 }
 
 
@@ -158,6 +152,8 @@ a.navbar-brand {
 	color: #2A2A2A;
 	padding: 0px;
 	margin-bottom: 6vh;
+	padding-left: 4vh;
+	padding-right: 4vh;
 }
 
 .title2 {
@@ -166,6 +162,7 @@ a.navbar-brand {
 	color: #FF46ED;
 	padding: 0px;
 	margin: 0px;
+	
 	
 }
 
@@ -179,6 +176,9 @@ a.navbar-brand {
 	
 }
 
+.definition {
+	padding-top: 0vh;
+}
 
 .illustration {
 	padding-top: 5vh;
@@ -199,11 +199,38 @@ a.navbar-brand {
 	color: #FF3A17;
 	padding: 0px;
 	margin: 0px;
-	border: 0px;
-	
+	border: 0px;	
 }
 
 .source:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+.signup {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 1.2rem;
+	color: #FF3A17;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+}
+
+.signup:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+.read-more {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 1.2rem;
+	color: #FF3A17;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+}
+
+.read-more:hover {
 	color: #ABABAB;
 	text-decoration: none;
 }
@@ -213,7 +240,9 @@ a.navbar-brand {
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 20px;
 	color: #2A2A2A;
-	padding: 0px;
+	padding:0;
+	padding-left: 4vh;
+	padding-right: 4vh;
 	margin: 0px;
 	margin-bottom: 3vh;
 }
@@ -259,6 +288,8 @@ a.navbar-brand {
 	height: auto;
 	padding-top:2vh;
 	padding-bottom: 0vh;
+	padding-left: 4vh;
+	padding-right: 4vh;
 }
 
 #viz-k {
