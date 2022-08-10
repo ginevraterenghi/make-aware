@@ -2622,6 +2622,10 @@ fieldset:disabled a.btn {
   color: #2b2b2b;
   background-color: #efefef;
   border-color: #2b2b2b;
+padding: 0.6rem;
+  font-size: 1.7rem;
+	text-align: center !important;
+	border-radius: 2rem;
 }
 
 .btn-primary:hover {
@@ -2631,8 +2635,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 58, 23, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 58, 23, 0.5);
+  -webkit-box-shadow: 0 0 0 0rem rgba(255, 58, 23, 0.5);
+  box-shadow: 0 0 0 0rem rgba(255, 58, 23, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2650,8 +2654,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 58, 23, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 58, 23, 0.5);
+  -webkit-box-shadow: 0 0 0 0rem rgba(255, 58, 23, 0.5);
+  box-shadow: 0 0 0 0rem rgba(255, 58, 23, 0.5);
 }
 
 
@@ -3192,9 +3196,27 @@ color: #2b2b2b;
 
 .btn-link {
   font-family: 'SuisseIntl-Book', sans-serif;
-  color: #2b2b2b;
   text-decoration: none;
 }
+
+.q {
+  font-family: 'SuisseIntl-Book', sans-serif;
+  color: #FF46ED;
+  text-decoration: none;
+	font-size: 1rem;
+	padding-left:2.5rem;
+}
+
+.question {
+  font-family: 'SuisseIntl-Book', sans-serif;
+  color: #2b2b2b;
+  text-decoration: none;
+	font-size: 1.7rem;
+	padding-left:0rem;
+	text-align: left;
+}
+
+
 
 .btn-link:hover {
   color: #E0DFDF;
@@ -4476,7 +4498,8 @@ li.nav-item.active {
   -ms-flex-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding-top: 0.5rem;
+	padding-left: 2.5rem;
 }
 
 .navbar > .container,
@@ -4488,7 +4511,7 @@ li.nav-item.active {
   flex-wrap: wrap;
   -ms-flex-align: center;
   -webkit-box-align: center;
-  align-items: center;
+  align-items: left;
   -ms-flex-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -5015,9 +5038,9 @@ border-right: 1px solid rgba(43, 43, 43, 1);
 
 .card-title-future {
   margin-bottom: 0rem;
-font-family:'SuisseIntl-Book', monospace;
-	font-size: 1.2rem;
-	color: #FF46ED; 
+font-family:'SuisseIntl-SemiBold', monospace;
+	font-size: 1.5rem;
+	color: #2b2b2b; 
 }
 
 .card-title-past {
@@ -5029,9 +5052,9 @@ font-family:'SuisseIntl-SemiBold', monospace;
 
 .card-subtitle-future {
   margin-bottom: 0rem;
-	font-family:'SuisseIntl-Regular', monospace;
-	font-size: 1.2rem;
-	color: #FF46ED; 
+	font-family:'SuisseIntl-SemiBold', monospace;
+	font-size: 1.3rem;
+	color: #2b2b2b; 
 }
 
 
@@ -5046,7 +5069,7 @@ font-family:'SuisseIntl-Light', monospace;
 .card-little-text {
   margin-bottom: 0rem;
 font-family:'SuisseIntl-Light', monospace;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	color: #2b2b2b; 
 }
 
@@ -5062,6 +5085,8 @@ font-family:'SuisseIntl-Light', monospace;
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+	font-size: 1.3rem;
+	font-family:'SuisseIntl-Light', monospace;
 }
 
 .card-text:last-child {
@@ -5138,7 +5163,7 @@ font-family:'SuisseIntl-Light', monospace;
   width: 100%;
   border-top-left-radius: calc(0rem - 0px);
   border-top-right-radius: calc(00rem - 0px);
-padding-left: 1.25rem;
+padding-left: 2.5rem;
 	padding-right: 1.25rem;
 	padding-top: 1.25rem;
 }
@@ -8634,9 +8659,12 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
-	color:#2b2b2b;
+	color:#FF46ED;
 	font-family: SuisseIntl-Book;
 	font-size: 1rem;
+	  font-size: 1.7rem;
+  line-height: 1.5;
+	  text-align: left;
 }
 
 .ml-0,
