@@ -47,10 +47,6 @@ marquee {
 	background-color: #EFEFEF;
 	margin: 0px;
 	border: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
 	background-color: #EFEFEF;
 }
 
@@ -62,12 +58,11 @@ marquee {
 
 .marq_text {
 	font-family: 'SuisseIntl-Book', sans-serif;
-	font-size: 1.4rem;
 	color: #2b2b2b;
 	margin: 0px;
 	border: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+	font-size: 1rem;
+	padding: 0.3rem;
 }
 
 
@@ -90,7 +85,7 @@ marquee {
 
 }
 
-#link_appearance_nav:hover{
+#link_appearance_nav:hover {
 	color: #E0DFDF;
 
 }
@@ -111,23 +106,20 @@ marquee {
 }
 
 
-#landing {}
 
 
 /*! ------------------------------------------ LANDING ------------------------------------------ */
 
-
 .title_super {
 	font-family: 'SuisseIntl-Bold', sans-serif;
-	font-size: 80px;
+	font-size: 3rem;
 	color: #2A2A2A;
 }
 
 .subtitle_super {
 	font-family: 'SuisseIntl-Light', sans-serif;
-	font-size: 24px;
 	color: #2A2A2A;
-	display: block;
+	font-size: 1rem;
 }
 
 .p {
@@ -140,10 +132,10 @@ marquee {
 
 .title1 {
 	font-family: 'SuisseIntl-SemiBold', sans-serif;
-	font-size: 40px;
+	font-size: 1.6rem;
 	color: #2A2A2A;
-	padding: 0px;
-	margin-bottom: 6vh;
+	padding: 0rem;
+	margin-bottom: 1rem;
 }
 
 .title2 {
@@ -152,8 +144,8 @@ marquee {
 	color: #FF46ED;
 	padding: 0rem;
 	margin: 0px;
-	
-	
+
+
 }
 
 .title3 {
@@ -163,12 +155,12 @@ marquee {
 	padding: 0px;
 	padding-top: 3vh;
 	margin: 0px;
-	
+
 }
 
 .extra-sources {
 	padding-bottom: 2rem;
-	
+
 }
 
 .definition {
@@ -190,21 +182,21 @@ marquee {
 }
 
 .text-faq {
-	color:#2b2b2b;
+	color: #2b2b2b;
 	font-family: SuisseIntl-Book;
 	font-size: 2rem;
 }
 
 .red {
-	background-color:red;
+	background-color: red;
 }
 
 .blue {
-	background-color:blue;
+	background-color: blue;
 }
 
 .green {
-	background-color:green;
+	background-color: green;
 }
 
 
@@ -216,7 +208,7 @@ marquee {
 	color: #FF3A17;
 	padding: 0px;
 	margin: 0px;
-	border: 0px;	
+	border: 0px;
 }
 
 .source:hover {
@@ -230,7 +222,7 @@ marquee {
 	color: #FF3A17;
 	padding: 0px;
 	margin: 0px;
-	border: 0px;	
+	border: 0px;
 }
 
 .signup:hover {
@@ -240,11 +232,11 @@ marquee {
 
 .read-more {
 	font-family: 'SuisseIntl-Book', sans-serif;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	color: #FF3A17;
 	padding: 0px;
 	margin: 0px;
-	border: 0px;	
+	border: 0px;
 }
 
 .read-more:hover {
@@ -255,9 +247,9 @@ marquee {
 
 .text2 {
 	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: #2A2A2A;
-	padding:0;
+	padding: 0;
 	margin: 0px;
 	margin-bottom: 1rem;
 }
@@ -267,15 +259,16 @@ marquee {
 
 #network {
 	background-color: #EFEFEF;
-	padding: 0vh;
-	padding-top:80px;
+	padding-top: 1rem;
 
 }
 
 #viz1 {
 	width: 100%;
 	height: auto;
-	padding: 0;
+	padding: 0rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 
@@ -284,32 +277,26 @@ marquee {
 
 #pills {
 	background-color: #EFEFEF;
-/*	background-color: lightblue;*/
+	/*	background-color: lightblue;*/
 	padding: 0vh;
-	padding-top:80px;
-	padding-bottom:30px;
 
 }
 
-.intro {
-	padding: 0vh;
-	padding-bottom:1rem;
-	padding-left:2.5rem;
-	padding-right:2.5rem;
-}
 
-.intro2 {
-	padding: 0vh;
-	padding-bottom:2rem;
-	padding-left:2.5rem;
-	padding-top:1.5rem;
+	.question2 {
+  font-family: 'SuisseIntl-Book', sans-serif;
+  color: #2b2b2b;
+  text-decoration: none;
+	font-size: 1.2rem;
+	padding-left:3rem;
+	text-align: left;
 }
 
 
 #viz-q {
 	width: 100%;
 	height: auto;
-	padding-top:2vh;
+	padding-top: 2vh;
 	padding-bottom: 0vh;
 	padding-left: 4vh;
 	padding-right: 4vh;
@@ -318,11 +305,13 @@ marquee {
 #viz-k {
 	width: 100%;
 	height: auto;
-	padding-top:3vh;
+	padding-top: 3vh;
 }
 
-.column-left {
-	padding-left:2rem;
+.intro {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1.8rem;
 }
 
 
@@ -330,10 +319,10 @@ marquee {
 /*! ------------------------------------------ WORKSHOPS ------------------------------------------ */
 
 #workshops {
-/*	non funziona collegamento da menu come se fosse diverso e non capisco perchè*/
+	/*	non funziona collegamento da menu come se fosse diverso e non capisco perchè*/
 	background-color: #EFEFEF;
-	padding-top:80px;
-	margin-bottom:30px;
+	padding-top: 80px;
+	margin-bottom: 30px;
 
 }
 
@@ -342,9 +331,9 @@ marquee {
 
 #toolkit {
 	background-color: #EFEFEF;
-	margin-bottom:30px;
-	padding-top:80px;
-	height:1000px;
+	margin-bottom: 30px;
+	padding-top: 80px;
+	height: 1000px;
 }
 
 
@@ -355,15 +344,14 @@ marquee {
 footer {
 	background-color: #FF3A17;
 	padding: 1rem;
-	padding-left: 2.5rem;
+	padding-left: 1rem;
 }
 
 .link_footer {
 	font-family: 'SuisseIntl-Regular', monospace;
-	font-size: 1.4rem;
 	color: #EFEFEF;
 	text-decoration: none;
-
+	font-size:1rem;
 }
 
 a.link_footer:hover {
@@ -371,39 +359,186 @@ a.link_footer:hover {
 	text-decoration: none;
 }
 
+#text_footer {
+	padding-right:10rem;
+}
 
 
 }
 
-.text_footer {
+/*
+text_footer {
 	font-family: 'SuisseIntl-Regular', monospace;
-	font-size: 10pt;
 	color: #EFEFEF;
 }
-
-
-
+*/
 
 /*! ------------------------------------------ RESPONSIVE ------------------------------------------ */
 
+/*
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)
+	
+QUI PER DESKTOP*/
+
 @media (min-width: 576px) {}
 
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+	.title_super {
+		font-size: 4rem;
+	}
+
+
+
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+
+	.title_super {
+		font-size: 5rem;
+	}
 
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
 
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+	.marq_text {
+		font-size: 1.4rem;
+		padding: 1rem;
+	}
+
+
+	#network {
+		padding: 0;
+		margin: 0;
+	}
+
+	.title_super {
+		font-size: 6rem;
+	}
+
+	.subtitle_super {
+		font-family: 'SuisseIntl-Light', sans-serif;
+		color: #2A2A2A;
+		font-size: 1.6rem;
+	}
+
+	.btn-primary {
+		font-size: 1.8rem;
+	}
+
+
+
+	.title1 {
+		font-size: 2.4rem;
+		margin-bottom: 1rem;
+	}
+
+	.mb-0,
+	.my-0 {
+		font-size: 1.6rem;
+	}
+
+	.intro {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.text2 {
+		font-family: 'SuisseIntl-Regular', sans-serif;
+		font-size: 1.2rem;
+		color: #2A2A2A;
+		padding: 0;
+		margin: 0px;
+		margin-bottom: 1.2rem;
+	}
+
+	#viz1 {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+
+	}
+	.question {
+		font-size: 1.7rem;
+	}
+	
+	.question2 {
+	font-size: 1.8rem;
+	padding-left:15rem;
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+	.card-title-future {
+		font-size: 1.5rem;
+	}
 
+	.card-subtitle {
+		font-size: 1.5rem;
+	}
+
+	.card-subtitle-future {
+		font-size: 1.3rem;
+	}
+
+	.card-subtitle-past {
+		font-size: 1.3rem;
+	}
+
+	.card-little-text {
+		font-size: 1.3rem;
+	}
+
+	.card-title-past {
+		margin-bottom: 0rem;
+		font-family: 'SuisseIntl-SemiBold', monospace;
+		font-size: 1.3rem;
+		color: #2b2b2b;
+	}
+
+	.card-body {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.read-more {
+		font-size: 1.2rem;
+	}
+	
+	.card-img-top {
+padding-left: 2.5rem;
+}
+	
+	.card-border3 {
+border-right: 1px solid rgba(43, 43, 43, 1);
+		border-left: 0px solid rgba(43, 43, 43, 1);
+	border-bottom: 0px solid rgba(43, 43, 43, 1);
+}
+	
+	footer {
+	background-color: #FF3A17;
+	padding: 1.6rem;
+	padding-left: 2.5rem;
+}
+	
+.link_footer {
+	font-size:1.2rem;
+}
+	
+	
 }
