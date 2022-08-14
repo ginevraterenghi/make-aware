@@ -229,13 +229,16 @@ label {
 }
 
 button {
-  border-radius: 0;
-	width:100%;
+  border-radius: 0;	
+}
+
+.triple {
+  width:100%;	
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
 }
 
 input,
@@ -4609,7 +4612,7 @@ a:hover {
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
-  background-size: 100% 100%;
+  background-size: 80%;
 }
 
 @media (max-width: 575.98px) {
@@ -4900,12 +4903,12 @@ a:hover {
 
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("/img/fav_pink.png");
 }
 
 .navbar-light .navbar-text {
