@@ -43,7 +43,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'SuisseIntl-Book', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 0rem;
+  font-family: 'SuisseIntl-Regular', sans-serif;	
 }
 
 abbr[title],
@@ -247,7 +248,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: 'SuisseIntl-Regular', sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -8685,7 +8686,7 @@ button.bg-dark:focus {
 .my-0 {
   margin-bottom: 0 !important;
 	color:#FF46ED;
-	font-family: SuisseIntl-Book;
+	font-family: 'SuisseIntl-Book', sans-serif;
 	font-size: 1rem;
     line-height: 1.5;
 	text-align: left;
@@ -10485,7 +10486,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: font-family: 'SuisseIntl-Book', sans-serif; !important;
 }
 
 .text-justify {
