@@ -35,6 +35,8 @@ container {
 
 
 
+
+
 /*! ------------------------------------------ MARQUEE ------------------------------------------ */
 
 marquee {
@@ -538,6 +540,18 @@ border-right: 1px solid rgba(43, 43, 43, 1);
 	
 .link_footer {
 	font-size:1.2rem;
+}
+	
+	.navbar-light .navbar-nav .nav-link {
+	font-family:'SuisseIntl-Regular', monospace;
+	font-size: 1.8rem;
+	color: #FF3A17;
+}
+	.nav-link-special {
+	font-size: 0.9rem;
+}
+	.drawer {
+  padding-left: 2.5rem;
 }
 	
 	
