@@ -368,10 +368,12 @@ footer {
 a.link_footer:hover {
 	color: #ABABAB;
 	text-decoration: none;
+	font-family: 'SuisseIntl-Regular', monospace;
 }
 
 #text_footer {
 	padding-right:10rem;
+	font-family: 'SuisseIntl-Regular', monospace;
 }
 
 
