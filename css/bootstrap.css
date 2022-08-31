@@ -2772,10 +2772,10 @@ fieldset:disabled a.btn {
 	color: #2b2b2b;
 	background-color: #efefef;
 	border-color: #2b2b2b;
-	padding: 0.6rem;
+	padding: 0.9rem;
 	font-size: 1rem;
 	text-align: center !important;
-	border-radius: 2rem;
+	border-radius: 3.5rem;
 }
 
 .btn-primary:hover {
@@ -2865,12 +2865,14 @@ fieldset:disabled a.btn {
 	color: #FF3A17;
 	background-color: white;
 	border-color: #FF3A17;
+	border-radius: 2rem;
+	font-size: 1.4rem;
 }
 
 .btn-secondary:hover {
 	color: #fff;
-	background-color: #5a6268;
-	border-color: #545b62;
+	background-color: #ABABAB;
+	border-color: #ABABAB;
 }
 
 .btn-secondary:focus,
@@ -5925,6 +5927,10 @@ a.badge-dark.focus {
 }
 
 #headingFour {
+	padding-left: 0;
+}
+
+#headingFive {
 	padding-left: 0;
 }
 
