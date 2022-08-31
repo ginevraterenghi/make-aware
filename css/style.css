@@ -342,12 +342,23 @@ marquee {
 
 /*! ------------------------------------------ FOOTER ------------------------------------------ */
 
+/*
 footer {
 	background-color: #FF3A17;
 	padding: 1rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
+*/
+
+.final {
+	background-color: #FF3A17;
+	padding: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
 
 .link_footer {
 	font-family: 'SuisseIntl-Regular', monospace;
@@ -536,7 +547,7 @@ border-right: 1px solid rgba(43, 43, 43, 1);
 	border-bottom: 0px solid rgba(43, 43, 43, 1);
 }
 	
-	footer {
+.final {
 	background-color: #FF3A17;
 	padding: 1.6rem;
 	padding-left: 2.5rem;
