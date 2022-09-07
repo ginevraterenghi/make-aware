@@ -9,6 +9,66 @@ gray 3 #ABABAB
 black-non-black #2B2B2B
 */
 
+/*! ------------------------------------------ FONTS ------------------------------------------ */
+
+/*! -------------------ABCCamera */
+
+@font-face {
+	font-family: 'ABCCamera-regular';
+	src: url('../font/ABCCamera-Regular-Trial.woff');
+
+}
+
+@font-face {
+	font-family: 'ABCCamera-medium';
+	src: url('../font/ABCCamera-Medium-Trial.woff');
+
+}
+
+@font-face {
+	font-family: 'ABCCamera-Regular';
+	src: url('../font/ABCCamera-Regular-Trial.woff2') format('woff2'),
+	url('../font/ABCCamera-Regular-Trial.woff') format('woff');
+}
+
+
+
+/*! -------------------SuisseIntl */
+
+@font-face {
+	font-family: 'SuisseIntl-Light';
+	src: url('../font/suisseintl-light-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Regular';
+	src: url('../font/suisseintl-regular-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Book';
+	src: url('../font/suisseintl-book-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Medium';
+	src: url('../font/suisseintl-medium-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Regular';
+	src: url('../font/suisseintl-light-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-light-webfont.woff') format('woff'),
+	url('../font/suisseintl-regular-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-regular-webfont.woff') format('woff'),
+	url('../font/suisseintl-book-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-book-webfont.woff') format('woff'),
+	url('../font/suisseintl-medium-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-medium-webfont.woff') format('woff');
+
+}
+
+
 /*! ------------------------------------------ MAIN ------------------------------------------ */
 
 header {
@@ -49,7 +109,7 @@ marquee {
 	background-color: #EFEFEF;
 	margin: 0px;
 	border: 0px;
-	padding:0;
+	padding-top: 0.3rem;
 	background-color: #EFEFEF;
 }
 
@@ -60,12 +120,12 @@ marquee {
 }
 
 .marq_text {
-	font-family: 'SuisseIntl-Book', sans-serif;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 	color: #2b2b2b;
 	margin: 0px;
 	border: 0px;
 	font-size: 1rem;
-	padding: 0.5rem;
+	padding: 0rem;
 }
 
 
@@ -81,7 +141,7 @@ marquee {
 
 
 #link_appearance_nav {
-	font-family: 'SuisseIntl-Regular', monospace;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 1.3rem;
 	color: #FF3A17;
 	padding-right: 10vh;
@@ -97,13 +157,13 @@ marquee {
 
 
 #link_appearance_nav_special {
-	font-family: 'SuisseIntl-Regular', monospace;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 9pt;
 	color: #FF46EC;
 }
 
 #link_appearance_nav_special:hover {
-	font-family: 'SuisseIntl-Regular', monospace;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 9pt;
 	color: #FF46EC;
 }
@@ -114,15 +174,18 @@ marquee {
 /*! ------------------------------------------ LANDING ------------------------------------------ */
 
 .title_super {
-	font-family: 'SuisseIntl-Bold', sans-serif;
-	font-size: 3rem;
+	font-family: 'ABCCamera-Regular', sans-serif;
+	font-size: 4rem;
 	color: #2A2A2A;
+	padding-top: 1.8rem;
+	line-height: 1.2;
 }
 
 .subtitle_super {
-	font-family: 'SuisseIntl-Light', sans-serif;
-	color: #2A2A2A;
+	font-family: 'SuisseIntl-Regular, sans-serif;
+ color: #2A2A2A;
 	font-size: 1rem;
+	line-height: 2.3rem;
 }
 
 .p {
@@ -135,15 +198,15 @@ marquee {
 
 
 .title1 {
-	font-family: 'SuisseIntl-SemiBold', sans-serif;
+	font-family: 'ABCCamera-Regular', sans-serif;
 	font-size: 1.6rem;
-	color: #2A2A2A;
+	color: #FF3A17;
 	padding: 0rem;
 	margin-bottom: 1rem;
 }
 
 .title2 {
-	font-family: 'SuisseIntl-Light', sans-serif;
+	font-family: 'SuisseIntl-Book', sans-serif;
 	font-size: 0.7rem;
 	color: #FF46ED;
 	padding: 0rem;
@@ -260,7 +323,7 @@ marquee {
 }
 
 #viz1 {
-	width: 100%;
+	width: 70%;
 	height: auto;
 	padding: 0rem;
 	padding-left: 1rem;
@@ -275,16 +338,16 @@ marquee {
 	background-color: #EFEFEF;
 	/*	background-color: lightblue;*/
 	padding: 0vh;
-
+	/*	border-top: 3px solid rgba(255, 70, 236, 1);*/
 }
 
 
-	.question2 {
-  font-family: 'SuisseIntl-Book', sans-serif;
-  color: #2b2b2b;
-  text-decoration: none;
+.question2 {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	color: #2b2b2b;
+	text-decoration: none;
 	font-size: 1.2rem;
-	padding-left:3rem;
+	padding-left: 3rem;
 	text-align: left;
 }
 
@@ -322,8 +385,8 @@ marquee {
 
 }
 
-.pastWorkshop  {
-	padding-bottom:3rem;
+.pastWorkshop {
+	padding-bottom: 3rem;
 
 }
 
@@ -359,21 +422,21 @@ footer {
 
 
 .link_footer {
-	font-family: 'SuisseIntl-Regular', monospace;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 	color: #EFEFEF;
 	text-decoration: none;
-	font-size:1rem;
+	font-size: 1rem;
 }
 
 a.link_footer:hover {
 	color: #ABABAB;
 	text-decoration: none;
-	font-family: 'SuisseIntl-Regular', monospace;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 }
 
 #text_footer {
-	padding-right:10rem;
-	font-family: 'SuisseIntl-Regular', monospace;
+	padding-right: 10rem;
+	font-family: 'SuisseIntl-Regular', sans-serif;
 }
 
 
@@ -433,8 +496,9 @@ QUI PER DESKTOP*/
 @media (min-width: 1200px) {
 
 	.marq_text {
-		font-size: 1.4rem;
-		padding: 1rem;
+		font-size: 1.3rem;
+		padding-top: 0.35rem;
+		padding-bottom: 0.35rem;
 	}
 
 
@@ -444,17 +508,18 @@ QUI PER DESKTOP*/
 	}
 
 	.title_super {
-		font-size: 6rem;
+		font-size: 6.4rem;
 	}
 
 	.subtitle_super {
-		font-family: 'SuisseIntl-Light', sans-serif;
+		font-family: 'SuisseIntl-Regular', sans-serif;
 		color: #2A2A2A;
 		font-size: 1.6rem;
 	}
 
 	.btn-primary {
-		font-size: 1.8rem;
+		font-family: 'SuisseIntl-Regular', sans-serif;
+		font-size: 1.4rem;
 	}
 
 
@@ -484,9 +549,9 @@ QUI PER DESKTOP*/
 	}
 
 	.title2 {
-	font-size: 1rem;
-}
-	
+		font-size: 1rem;
+	}
+
 	#viz1 {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
@@ -495,11 +560,11 @@ QUI PER DESKTOP*/
 	.question {
 		font-size: 1.7rem;
 	}
-	
+
 	.question2 {
-	font-size: 1.8rem;
-	padding-left:15rem;
-}
+		font-size: 1.8rem;
+		padding-left: 15rem;
+	}
 
 	.card-title-future {
 		font-size: 1.5rem;
@@ -523,7 +588,7 @@ QUI PER DESKTOP*/
 
 	.card-title-past {
 		margin-bottom: 0rem;
-		font-family: 'SuisseIntl-SemiBold', monospace;
+		font-family: 'SuisseIntl-SemiBold', sans-serif;
 		font-size: 1.3rem;
 		color: #2b2b2b;
 	}
@@ -537,45 +602,45 @@ QUI PER DESKTOP*/
 		font-size: 1.2rem;
 		line-height: 0.9rem;
 	}
-	
+
 	.card-img-top {
-padding-left: 2.5rem;
-}
-	
+		padding-left: 2.5rem;
+	}
+
 	.card-border3 {
-border-right: 1px solid rgba(43, 43, 43, 1);
+		border-right: 1px solid rgba(43, 43, 43, 1);
 		border-left: 0px solid rgba(43, 43, 43, 1);
-	border-bottom: 0px solid rgba(43, 43, 43, 1);
-}
-	
-.final {
-	background-color: #FF3A17;
-	padding: 1.6rem;
-	padding-left: 2.5rem;
-}
-	
-.link_footer {
-	font-size:1.2rem;
-}
-	
+		border-bottom: 0px solid rgba(43, 43, 43, 1);
+	}
+
+	.final {
+		background-color: #FF3A17;
+		padding: 1.6rem;
+		padding-left: 2.5rem;
+	}
+
+	.link_footer {
+		font-size: 1.2rem;
+	}
+
 	.navbar-light .navbar-nav .nav-link {
-	font-family:'SuisseIntl-Regular', monospace;
-	font-size: 1.8rem;
-	color: #FF3A17;
-}
+		font-family: 'SuisseIntl-Book';
+		font-size: 1.4rem;
+		color: #FF3A17;
+	}
 	.nav-link-special {
-	font-size: 0.9rem;
-}
+		font-size: 1.4rem;
+	}
 	.drawer {
-  padding-left: 2.5rem;
-}
+		padding-left: 2.5rem;
+	}
 	.navbar {
-	padding-left: 2.5rem;
-	padding-right: 2.5rem;
-}
-	
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
 	.text1 {
-	font-size: 1.8rem;
-}
-	
+		font-size: 1.8rem;
+	}
+
 }
