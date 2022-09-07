@@ -65,8 +65,6 @@ section {
 
 body {
 	margin: 0;
-/*	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-	font-family: 'ABCCamera', sans-serif;
 	/*  font-size: 1rem;*/
 	font-weight: 400;
 	line-height: 1.5;
@@ -2721,7 +2719,7 @@ textarea.form-control.is-invalid {
 	-ms-user-select: none;
 	user-select: none;
 	background-color: transparent;
-	border: 1px solid transparent;
+	border:1px solid transparent;
 	padding-top: 0.4rem;
 	font-size: 1.7rem;
 	line-height: 1.5;
@@ -2730,6 +2728,7 @@ textarea.form-control.is-invalid {
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+
 }
 
 .drawer {
@@ -2775,8 +2774,10 @@ fieldset:disabled a.btn {
 	background-color: #efefef;
 	border-color: #2b2b2b;
 	padding: 0.9rem;
+		margin: 0rem;
 	font-size: 1rem;
 	text-align: center !important;
+	text-align: middle !important;
 	border-radius: 3.5rem;
 }
 
@@ -2868,7 +2869,7 @@ fieldset:disabled a.btn {
 	background-color: white;
 	border-color: #FF3A17;
 	border-radius: 2rem;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 .btn-secondary:hover {
@@ -5299,9 +5300,9 @@ a:hover {
 	color: #2b2b2b;
 }
 
-.card-title-past {
+.v0-title {
 	margin-bottom: 0rem;
-	font-family: 'SuisseIntl-SemiBold', monospace;
+	font-family: 'SuisseIntl-Book', monospace;
 	font-size: 1.3rem;
 	color: #2b2b2b;
 }
@@ -5316,13 +5317,20 @@ a:hover {
 
 .card-title-past {
 	margin-bottom: 0rem;
-	font-family: 'SuisseIntl-SemiBold', monospace;
+	font-family: 'SuisseIntl-Book', monospace;
 	font-size: 0.8rem;
 	color: #2b2b2b;
 	padding-right: 0.2rem;
 }
 
 .card-subtitle-past {
+	margin-bottom: 0rem;
+	font-family: 'SuisseIntl-Light', monospace;
+	font-size: 0.7rem;
+	color: #2b2b2b;
+}
+
+.v0-subtitle {
 	margin-bottom: 0rem;
 	font-family: 'SuisseIntl-Light', monospace;
 	font-size: 0.7rem;
@@ -8998,7 +9006,7 @@ button.bg-dark:focus {
 	margin-bottom: 0 !important;
 	color: #FF46ED;
 	font-family: 'SuisseIntl-Book', sans-serif;
-	font-size: 1rem;
+	font-size: 0.7rem;
 	line-height: 1.5;
 	text-align: left;
 }
